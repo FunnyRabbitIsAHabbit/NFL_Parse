@@ -1,16 +1,17 @@
 """
 Visual demo for NFL parsing
-Developer: Ermokhin Stanislav Alexandrovich
+Developer: Stanislav Alexandrovich Ermokhin
 
 """
 
 
 import new_parse as parse
 from tkinter import *
+from operator import itemgetter
 import OOP
 
 LIST_PLAYERS = sorted(parse.parse_function(),
-                      key=lambda dic: dic['PR'],
+                      key=itemgetter('PR', 'NAME'),
                       reverse=True)
 LIST_LABELS = [''] + parse.LIST_LABELS
 
