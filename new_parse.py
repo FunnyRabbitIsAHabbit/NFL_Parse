@@ -1,5 +1,6 @@
 """
 NFL web page parsing
+This part has been deprecated from main.py
 
 """
 
