@@ -1,7 +1,6 @@
 """
 OOP part of the NFL program
 
-from GitHub: https://gist.github.com/novel-yet-trivial/3eddfce704db3082e38c84664fc1fdf8
 """
 
 import tkinter as tk
